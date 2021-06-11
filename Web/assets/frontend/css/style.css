@@ -1,0 +1,97 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+main .set-ul ul li {
+    background: url(../image/i-v.png) no-repeat;
+    list-style-type: none;
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.menu {
+    background-color: #3291a8;
+    height: 42px;
+}
+
+.menu ul {
+    display: flex;
+    padding-left: 15px;
+}
+
+.menu ul li {
+    line-height: 42px;
+}
+
+#navbarTogglerDemo02 ul li a {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+#navbarTogglerDemo02 ul li {
+    margin-right: 25px;
+}
+
+.menu ul li a:hover {
+    cursor: pointer;
+    background-color: #fcfafa;
+    color: #3291a8;
+}
+
+h1 {
+    color: #3291a8;
+}
+
+#navbar-footer {
+    background-color: #3291a8;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#navbar-footer ul {
+    display: flex;
+    padding-left: 0;
+    margin: auto;
+}
+
+#navbar-footer ul li a {
+    color: #fcfafa;
+    line-height: 0;
+    font-weight: bold;
+}
+
+#navbar-footer ul li:not(:last-child) {
+    border-right: 1px solid white;
+}
+
+footer #footer-text {}
+
+footer #footer-text div {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-image: url(../image/footer-bg.png);
+    background-color: #036903;
+    height: 210px;
+}
+
+#texttracuu {
+    color: red;
+    font-size: 18px;
+}
